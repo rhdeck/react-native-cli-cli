@@ -41,3 +41,11 @@ commander
     console.log("Command", argv, "created in ", basePath);
   });
 commander.parse(process.argv);
+if (!process.argv) commander.outputHelp();
+else if (!commander.commandExecuted) {
+  console.log(
+    'No command identified! Did you mean to use "react-native-cli init ' +
+      process.argv.slice(2).join(" ") +
+      '"?'
+  );
+}
