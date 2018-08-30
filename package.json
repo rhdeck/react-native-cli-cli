@@ -17,7 +17,8 @@
   "author": "Ray Deck",
   "license": "MIT",
   "bin": {
-    "react-native-cli": "cli.js"
+    "react-native-cli": "cli.js",
+    "rnc": "cli.js"
   },
   "dependencies": {
     "commander": "^2.17.1",
