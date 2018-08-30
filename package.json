@@ -1,0 +1,26 @@
+{
+  "name": "react-native-cli-cli",
+  "version": "1.0.0",
+  "description": "Utility for creating React Native CLI extensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/rhdeck/react-native-cli-cli"
+  },
+  "keywords": [
+    "react-native",
+    "cli"
+  ],
+  "author": "Ray Deck",
+  "license": "MIT",
+  "bin": {
+    "react-native-cli": "cli.js"
+  },
+  "dependencies": {
+    "commander": "^2.17.1",
+    "moustache": "^0.0.2"
+  }
+}

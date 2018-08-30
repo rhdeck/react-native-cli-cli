@@ -1,0 +1,13 @@
+{
+  "name": "{{packagename}}",
+  "version": "0.0.1",
+  "author": "{{author}}",
+  "license": "{{license}}",
+  "rnpm": {
+    "plugin": "plugin.js",
+    "commands": {
+      "prelink": "node node_modules/{{packagename}}/prelink.js",
+      "postlink": "node node_modules/{{packagename}}/postlink.js"
+    }
+  }
+}
