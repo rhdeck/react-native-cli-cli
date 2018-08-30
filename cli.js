@@ -39,6 +39,7 @@ commander
       fs.writeFileSync(targetFilePath, out);
     });
     console.log("Command", argv, "created in ", basePath);
+    process.exit();
   });
 commander.parse(process.argv);
 if (!process.argv) commander.outputHelp();
