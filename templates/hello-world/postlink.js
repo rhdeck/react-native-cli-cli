@@ -1,2 +1,2 @@
 #!/usr/bin/env node
-console.log("{{packagename}}/prelink.js ran on the postlink event");
+console.log("{{packagename}}/postlink.js ran on the postlink event");
